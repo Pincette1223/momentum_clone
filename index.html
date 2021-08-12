@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <section class="center">
+      <div class="js-clock clock">
+        <h3 class="clock__text">00:00</h3>
+      </div>
+      <div class="js-name name"></div>
+      <div>
+        <form class="js-to-do to-do">
+          <input
+            class="js-add-to-do to-do__add-to-do"
+            placeholder="해야 할 일을 입력하세요."
+            type="text"
+          />
+        </form>
+        <ul class="js-list list"></ul>
+      </div>
+      <div id="quote">
+        <span></span>&nbsp;&nbsp;&nbsp;
+        <span></span>
+      </div>
+    </section>
+
+    <div class="js-weather weather">
+      <span class="weather__text"></span>
+    </div>
+
+    <script src="js/bg.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/toDo.js"></script>
+    <script src="js/quotes.js"></script>
+  </body>
+</html>

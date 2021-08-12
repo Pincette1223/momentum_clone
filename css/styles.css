@@ -1,0 +1,14 @@
+@import "main.css";
+@import "location.css";
+@import "clock.css";
+@import "weather.css";
+@import "center.css";
+@import "todo.css";
+
+@font-face {
+  font-family: "SLEIGothicTTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
